@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profit or Loss</title>
+    <link rel="stylesheet" href="./lib/style.css">
+  </head>
+  <body>
+    <div class="container container-centre">
+    <h1 class="heading">Stock Profile & Loss Calculator</h1>
+    <hr/>
+    
+    <h2 class="heading">Initial Price</h2>
+    <input class = "container container-centre input block" id="initPrice" type="number"></input>
+    
+    <h2 class="heading">Quantity of Stocks</h2>
+    <input class="container container-centre input block" type="number" id="quantity"></input>
+    
+    <h2 class="heading">Current Price</h2>
+    <input class="container container-centre input block" type="number" id="currPrice"></input>
+
+    <button class="container container-centre block btnSubmit" id="submitBtn">Check</button>
+    
+    <textarea class="container container-centre" id="output"></textarea>
+
+    </div>
+    <footer class="footerStyle">
+      <ul class="container container-centre">
+          <li>
+              <div>
+              &copy; | 2021 | aggressify
+              </div>
+          </li>
+          <li>
+              <div></div>
+          </li>
+      </ul>
+  </footer>
+    <script src="./lib/app.js"></script>
+  </body>
+</html>
